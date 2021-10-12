@@ -7,18 +7,13 @@ import { CommentDocument } from './Comment';
 import { ReactionDocument } from './Reaction';
 import User, { UserDocument } from './User';
 
-/**
- * TODO: (3.01)
- * Done
- */
+
 export enum PostType {
   HELP = 'HELP', // Asking for help...
   TIL = 'TIL', // Today I learned...
   WIN = 'WIN' // Sharing a win...
 }
 
-/*
- */
 interface IPost extends BaseModel {
   /**
    * User that is associated with the creation of the post.
