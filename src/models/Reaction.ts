@@ -1,5 +1,4 @@
 import mongoose, { Document, PopulatedDoc, Schema } from 'mongoose';
-
 import { Model } from '../utils/constants';
 import { BaseModel, ID } from '../utils/types';
 import { PostDocument } from './Post';
