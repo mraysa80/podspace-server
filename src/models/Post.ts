@@ -2,6 +2,7 @@ import mongoose, { Document, PopulatedDoc, Schema } from 'mongoose';
 
 import TextService from '../services/TextService';
 import { Model } from '../utils/constants';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { BaseModel, ID } from '../utils/types';
 import { CommentDocument } from './Comment';
 import { ReactionDocument } from './Reaction';
